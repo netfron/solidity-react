@@ -7,16 +7,14 @@ class MyComp extends Component {
 
   constructor(props) {
     super(props);
-    this.str = "Hello World";
   }
 
   render() {
     return (
       <div className="box">
         <div>
-            <FontAwesomeIcon icon={farCircle} size="3x" />
-            <FontAwesomeIcon icon={fasCircle} size="3x" />
-            <h1>{this.str}</h1>
+            <FontAwesomeIcon icon={farCircle} size="5x" />
+            <FontAwesomeIcon icon={fasCircle} size="5x" />
         </div>
       </div>
     )

@@ -28,7 +28,7 @@ class Menu extends Component {
     return (
       <Navbar color="dark" dark expand="md">
         <div className="container">
-          <NavLink to="/" className="navbar-brand">React</NavLink>
+          <NavLink to="/" className="navbar-brand">{this.props.name}</NavLink>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
